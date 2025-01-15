@@ -6,7 +6,7 @@ public class InvertedPyramidPatterns2{
         int n = sc.nextInt();
 
         //outer loop
-        for(int i=1; i<=n; i++){
+        for(int i=14; i<=n; i++){
             //TODO: inner loop -> space print
             for(int j=1; j<=n-i; j++){
                 System.out.print(" ");
