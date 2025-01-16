@@ -6,9 +6,9 @@ public class HollowRectanglePatterns {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        //outer loop
+        //outer loop rows
         for(int i=1; i<=n; i++){
-            //inner loop
+            //inner loop colums
             for(int j=1; j<=m; j++){
                 //cell -> (i,j)
                 if(i == 1 || j == 1 || i == n || j ==  m){
