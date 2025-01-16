@@ -15,7 +15,6 @@ public class SolidRectanglePatterns {
             System.out.println();
         }   
     }
-    
 }
 
 /* TODO: Example Output Patterns
