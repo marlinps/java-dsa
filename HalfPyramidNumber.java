@@ -13,8 +13,7 @@ public class HalfPyramidNumber{
             }
             System.out.println();
         }   
-    }
-    
+    }  
 }
 
 /* TODO: Example Output Patterns
