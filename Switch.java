@@ -1,5 +1,4 @@
 import java.util.*;
-
 class SwitchClass{
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
@@ -13,7 +12,6 @@ class SwitchClass{
         case 3 : System.out.println("Bonjour");
         break;
         default : System.out.println("Invalid Button");
-
        }
     }
 }
