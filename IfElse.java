@@ -38,6 +38,5 @@ class IfElseClass{
         }else{
             System.out.println("Invalid Button");
         }
-
     }
 }
