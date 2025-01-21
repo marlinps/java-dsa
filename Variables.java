@@ -13,7 +13,5 @@ public class Variables {
 
         int mul = (a * b)/(a - b);
         System.out.println(mul);
-
-    }
-    
+    }  
 }
