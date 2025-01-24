@@ -12,6 +12,7 @@ public class SumAllOddNumbersFunction {
                     sum += i;
                 }
             }
+
             System.out.println("Sum of n odd numbers "+sum);
         }
     }
@@ -21,7 +22,5 @@ public class SumAllOddNumbersFunction {
         int n = sc.nextInt();
 
         CalculateSumAllNumbers(n);
-
-    }
-    
+    } 
 }
