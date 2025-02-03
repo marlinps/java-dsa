@@ -24,6 +24,16 @@ public class TwoDArrays {
                 System.out.print(numbers[i][j] + " ");
             }
             System.out.println();
-        }        
+        }   
+        
+        int x = sc.nextInt();
+        
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                if(numbers[i][j] == x){
+                    System.out.println("x : " + x + " found at location (" + i + ", " + j + ")");
+                }
+            }
+        }
     }
 }
