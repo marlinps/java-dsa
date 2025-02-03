@@ -18,5 +18,21 @@ public class Strings {
         for(int i=0; i<fullName.length(); i++){
             System.out.println(fullName.charAt(i));
         }
+
+        //TODO: compare
+        String name1 = "Tony";
+        String name2 = "Tony";
+
+        /* TODO: Notes
+         * 1 s1 > s2 = +ve value (positive)
+         * 2 s1 == s2 = 0
+         * 3 s1 < s2 = -ve value (negative)
+         */ 
+
+        if(name1.compareTo(name2) == 0){
+            System.out.println("String are equal");
+        }else{
+            System.out.println("String are not equal");
+        }
     }
 }
