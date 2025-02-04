@@ -8,5 +8,7 @@ public class SubStrings {
 
         System.out.println(name1);
         System.out.println(name2);
+
+        //TODO: Strings are Immutable
     }
 }
