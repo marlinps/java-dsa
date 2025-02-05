@@ -1,5 +1,6 @@
 public class Bits {
     public static void main(String[] args) {
+        //TODO: AND (&)
         int n = 5;//0101
         int pos = 3;
         int bitMask = 1<<pos;
@@ -9,5 +10,13 @@ public class Bits {
         }else{
             System.out.println("bit was one");
         }
+
+        //TODO: OR (|)
+        int n1 = 5;
+        int pos1 = 1;
+        int bitMask1 = 1<<pos1;
+
+        int newNumber = bitMask1 | n1;
+        System.out.println(newNumber);        
     }
 }
