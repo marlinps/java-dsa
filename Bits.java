@@ -12,7 +12,7 @@ public class Bits {
         }
 
         //TODO: Set Bit -> OR (|)
-        int n1 = 5;
+        int n1 = 5;//0101
         int pos1 = 1;
         int bitMask1 = 1<<pos1;
 
