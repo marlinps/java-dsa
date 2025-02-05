@@ -17,6 +17,16 @@ public class Bits {
         int bitMask1 = 1<<pos1;
 
         int newNumber = bitMask1 | n1;
-        System.out.println(newNumber);        
+        System.out.println(newNumber);     
+        
+        //TODO: Clear Bit -> AND With NOT
+        int n2 = 5;
+        int pos2 = 2;
+        int bitMask2 = 1<<pos2;
+        int notBitMask = ~(bitMask2);
+
+        int newNumber2 = notBitMask & n;
+        System.out.println(newNumber2);
+
     }
 }
