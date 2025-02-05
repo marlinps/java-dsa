@@ -5,13 +5,13 @@ public class BinaryLeftShift {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int shifted1 = n << 1;
-        int shifted2 = n << 2;
-        int shifted3 = n << 3;
+        int blf1 = n << 1;
+        int blf2 = n << 2;
+        int blf3 = n << 3;
 
-        System.out.println(shifted1);
-        System.out.println(shifted2);
-        System.out.println(shifted3);
+        System.out.println(blf1);
+        System.out.println(blf2);
+        System.out.println(blf3);
     }
 }
 
