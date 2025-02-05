@@ -25,7 +25,7 @@ public class Bits {
         int bitMask2 = 1<<pos2;
         int notBitMask = ~(bitMask2);
 
-        int newNumber2 = notBitMask & n;
+        int newNumber2 = notBitMask & n2;
         System.out.println(newNumber2);
 
     }
