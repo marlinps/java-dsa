@@ -27,6 +27,5 @@ public class Bits {
 
         int newNumber2 = notBitMask & n2;
         System.out.println(newNumber2);
-
     }
 }
