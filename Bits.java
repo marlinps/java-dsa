@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Bits {
     public static void main(String[] args) {
         //TODO: Get Bit -> AND (&)
@@ -27,5 +29,24 @@ public class Bits {
 
         int newNumber2 = notBitMask & n2;
         System.out.println(newNumber2);
+
+        //TODO: Update Bit
+        Scanner sc = new Scanner(System.in);
+        int oper = sc.nextInt();
+        //oper=1 : set oper=0 : clear
+        int n3 = 5; //0101 -> 0111 -> dec 7
+        int pos3 = 1;
+
+        int bitMask3 = 1<<pos3;
+        if(oper == 1){
+            //set
+            int newNumber3 = bitMask3 | n;
+            System.out.println(newNumber3);
+        }else{
+            //clear
+            int newBitMask3 = ~(bitMask3);
+            int newNumber3 = newBitMask3 & n3;
+            System.out.println(newNumber3);
+        }
     }
 }
