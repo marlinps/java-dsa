@@ -8,5 +8,4 @@ public class StringBuilders2 {
         System.out.println(sb);
         System.out.println(sb.length());
     }
-    
 }
