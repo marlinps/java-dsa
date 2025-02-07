@@ -15,7 +15,6 @@ public class HalfPyramidPatterns{
             System.out.println();
         }   
     }
-    
 }
 
 /* TODO: Example Output Patterns
