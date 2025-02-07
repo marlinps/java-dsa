@@ -20,7 +20,6 @@ public class HollowRectanglePatterns {
             System.out.println();
         }   
     }
-    
 }
 
 /* TODO: Example Output Patterns
