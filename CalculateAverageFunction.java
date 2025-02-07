@@ -17,5 +17,4 @@ public class CalculateAverageFunction {
 
         calculateAverage(a, b, c);
     }
-    
 }
