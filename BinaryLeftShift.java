@@ -24,5 +24,4 @@ public class BinaryLeftShift {
     13 << 1 → 13 * 2 = 26
     13 << 2 → 13 * 4 = 52
     13 << 3 → 13 * 8 = 104
-  
  */
