@@ -1,18 +1,29 @@
 import java.util.*;
 
 public class Recursion1 {
-    public static void printNum(int n){
+    public static void printNumDiscrease(int n){
         if(n == 0){
-            return;
+            return; //Break
         }
-        
+
         System.out.println(n);
-        printNum(n-1); //TODO: Recursion
+        printNumDiscrease(n-1); //TODO: Recursion
     }
+
+    public static void printNumIncrease(int n){
+        if(n == 6){
+            return; //Break
+        }
+
+        System.out.println(n);
+        printNumIncrease(n+1); //TODO: Recursion
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt(); //exmp n =  5
 
-        printNum(n);
+        printNumDiscrease(n);
+        printNumIncrease(n);
     } 
 }
