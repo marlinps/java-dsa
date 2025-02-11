@@ -4,7 +4,7 @@ public class RecursionCalculatePower2 {
         if(n == 0){ //base case 1
             return 1;    
         }
-        
+
         if(x == 0){//base case 2
             return 0;
         }
@@ -23,3 +23,5 @@ public class RecursionCalculatePower2 {
         System.out.println(ans);  
     }
 }
+
+//TODO: Print x^n (with stack height = logn)
