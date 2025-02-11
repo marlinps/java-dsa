@@ -9,7 +9,7 @@ public class RecursionFactorials {
         return fact_n;
     }
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
         int ans = calcFactorial(n);
         
         System.out.println(ans);
