@@ -27,3 +27,9 @@ public class Recursion1 {
         printNumIncrease(n);
     } 
 }
+
+/* TODO:
+ * 
+ *  Print numbers from 5 to 1.
+ *  Print numbers from 1 to 5.
+ */

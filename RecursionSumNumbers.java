@@ -14,4 +14,4 @@ public class RecursionSumNumbers {
         printSum(1, 5, 0);
     }
 }
-//TODO: Print sum of fiirst n natural numbers
+//TODO: Print sum of first n natural numbers
