@@ -10,6 +10,7 @@ public class Recursion1 {
         printNumDiscrease(n-1); //TODO: Recursion
     }
 
+
     public static void printNumIncrease(int n){
         if(n == 6){
             return; //Break
