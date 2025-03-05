@@ -17,6 +17,6 @@ public class GreaterOfThoseTwoNumbersFunction {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println("Greater Of Those Two Numbers ("+a+" and "+b+") : "+GreaterOfThoseTwoNumbers(a, b));
+        System.out.println("Greater Of Those Two Numbers (" + a + " and " + b + ") : " + GreaterOfThoseTwoNumbers(a, b));
     }
 }
