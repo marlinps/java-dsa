@@ -47,6 +47,5 @@ class Functions{
         System.out.println("Product of 2 numbers is : "+ calculateProduct(a,b));
 
         printFactorial(n);
-       
     }
 }
