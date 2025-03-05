@@ -17,6 +17,6 @@ public class EligibleVoteFunction {
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
-        System.out.println("A person of age "+age+" is "+EligibleVoteFunction(age));
+        System.out.println("A person of age " + age + " is " +EligibleVoteFunction(age));
     }
 }
