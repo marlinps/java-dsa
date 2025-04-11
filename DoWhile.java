@@ -3,8 +3,9 @@ class DoWhileClass{
         int i = 0;
 
         do{
+            //do something
             System.out.println(i);
             i++;
-        }while(i < 11);   
+        }while(i < 11);//condition  
     }
 }
