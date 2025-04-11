@@ -22,7 +22,7 @@ public class InvertedPyramidPatterns2{
     }  
 }
 
-/* TODO: Example Output Patterns rotated by 180 deg
+/* TODO: Example Output Patterns rotated by 180 deg, n = 4
  *      *
  *     **   
  *    ***   
