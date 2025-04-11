@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class ZeroOneTriangle{
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -21,7 +22,7 @@ public class ZeroOneTriangle{
     }  
 }
 
-/* TODO: Example Output Patterns
+/* TODO: Example Output Patterns input number 5
 1
 0 1
 1 0 1
