@@ -22,7 +22,7 @@ public class ZeroOneTriangle{
     }  
 }
 
-/* TODO: Example Output Patterns input number 5
+/* TODO: Example Input and Output Patterns, input=5
 1
 0 1
 1 0 1
