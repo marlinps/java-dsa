@@ -18,11 +18,10 @@ public class ZeroOneTriangle{
             }
             System.out.println();
         }
-       
     }  
 }
 
-/* TODO: Example Input and Output Patterns, input=5
+/* TODO: Example Input and Output Patterns, n=5
 1
 0 1
 1 0 1
