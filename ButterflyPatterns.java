@@ -33,7 +33,7 @@ public class ButterflyPatterns{
             }
 
             //spaces
-            int spaces = 2 * (n-i);
+            int spaces = 2*(n-i);
             for(int j=1; j<=spaces; j++){
                 System.out.print(" ");
             }
@@ -47,7 +47,7 @@ public class ButterflyPatterns{
     }  
 }
 
-/* TODO: Example Output Patterns for n = 4
+/* TODO: Example Output Patterns for n= 4
     *             *
     * *         * *
     * * *     * * *
