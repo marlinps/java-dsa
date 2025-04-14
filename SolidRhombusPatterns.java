@@ -20,7 +20,7 @@ public class SolidRhombusPatterns{
     }  
 }
 
-/* TODO: Example Output Patterns for n = 5
+/* TODO: Example Output Patterns for n= 5
         *****
        *****
       *****
