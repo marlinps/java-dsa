@@ -26,7 +26,7 @@ public class PalindromicPatterns{
     }  
 }
 
-/* TODO: Example Output Patterns for n = 5
+/* TODO: Example Output Patterns for n= 5
     1  
    212 
   32123
