@@ -12,7 +12,7 @@ public class InvertedPyramidPatterns2{
                 System.out.print(" ");
             }
             
-            //TODO: inner loop -> star print
+            //TODO: inner loop -> stars print
             for(int j=1 ; j<=i; j++){
                 System.out.print("*");
             }
