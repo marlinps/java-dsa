@@ -22,7 +22,7 @@ public class HollowRectanglePatterns {
     }
 }
 
-/* TODO: Example Output Patterns n = 4, m = 5
+/* TODO: Example Output Patterns n= 4, m= 5
  *   *****
  *   *   *
  *   *   *
