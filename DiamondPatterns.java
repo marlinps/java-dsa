@@ -37,15 +37,13 @@ public class DiamondPatterns{
     }  
 }
 
-/* TODO: Example Output Patterns for n = 5
-    *
-   ***
-  *****
- *******
-*********
-*********
- *******
-  *****
-   ***
-    *
+/* TODO: Example Output Patterns for n= 4
+   *    i= 1, spaces=3, stars=1
+  ***   i= 2, spaces=2, stars=3 
+ *****  i= 3, spaces=1, stars=5
+******* i= 4, spaces=0, stars=7
+*******
+ *****
+  ***
+   *
 */
