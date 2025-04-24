@@ -20,8 +20,8 @@ public class DiamondPatterns{
             System.out.println();
         } 
 
-         //lower half
-         for(int i=n; i>=1; i--){
+        //lower half
+        for(int i=n; i>=1; i--){
             //spaces
             for(int j=1; j<=n-i; j++){
                 System.out.print(" ");
