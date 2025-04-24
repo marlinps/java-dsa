@@ -11,7 +11,7 @@ public class NumberPyramidPatterns{
                 System.err.print(" ");
             }
 
-            //number -> prirnt row no, row no times
+            //number -> print row no, row no times
             for(int j=1; j<=i; j++){
                 System.out.print(i+" ");
             }
