@@ -25,7 +25,7 @@ public class ButterflyPatterns{
             System.out.println();
         }
 
-        // Lower Half
+        //Lower Half
         for(int i=n; i>=1; i--){
             //1st part
             for(int j=1; j<=i; j++){
