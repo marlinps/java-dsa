@@ -22,7 +22,7 @@ public class HalfPyramidNumber2{
     }  
 }
 
-/* TODO:E xample Output Patterns n= 5
+/* TODO: Example Output Patterns n= 5
     1
    1 2
   1 2 3
