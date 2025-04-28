@@ -9,7 +9,7 @@ public class PascalsTrianglePatterns {
         for(int i=1; i<=n; i++){
             int c =1;
 
-            //print space
+            //print spaces
             for(int j=1; j<=n-i; j++){
                 System.out.print(" ");
             }
