@@ -1,4 +1,5 @@
 import java.util.*;
+
 class Functions{
     public static void printMyName(String name){
         System.out.println(name);
