@@ -5,7 +5,7 @@ public class PascalsTrianglePatterns {
         Scanner sn = new Scanner(System.in);
         int n = sn.nextInt();
 
-        //outer loop
+        //outer loops
         for(int i=1; i<=n; i++){
             int c =1;
 
