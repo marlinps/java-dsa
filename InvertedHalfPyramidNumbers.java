@@ -22,10 +22,9 @@ public class InvertedHalfPyramidNumbers{
     }  
 }
 
-/* TODO: Example Output Patterns n=4
+/* TODO: Example Output Patterns n= 4
 1111
 222
 33
 4
-
  */
