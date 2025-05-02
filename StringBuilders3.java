@@ -7,5 +7,9 @@ public class StringBuilders3 {
         System.out.println("After append: " + sb);
 
         System.out.println(sb.length());
+
+        //convert StringBuilder to String
+        String str = sb.toString();
+        System.out.println(str);
     }
 }
