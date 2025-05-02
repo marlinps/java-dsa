@@ -17,7 +17,7 @@ class Functions{
 
     //TODO: Find the factorial of a number
     public static void printFactorial(int n){
-        //loop
+        //Loop
         if(n < 0){
             System.out.println("Invalid Number");
             return;
