@@ -26,5 +26,22 @@ public class StringBuilders {
         //set char at indes 0
         sb.setCharAt(0, 'P');
         System.out.println(sb);
+
+        //reverse string
+        sb.reverse();
+        System.out.println(sb);
+
+        //capacity
+        int cap = sb.capacity();
+        System.out.println(cap);
+
+        //length
+        int len = sb.length();
+        System.out.println(len);
+
+        //substring
+        String sub = sb.substring(0,3);
+        System.out.println(sub);
+
     }
 }
