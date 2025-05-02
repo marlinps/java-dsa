@@ -8,10 +8,12 @@ public class BinaryRightShift {
         int brh1 = n >> 1;
         int brh2 = n >> 2;
         int brh3 = n >> 3;
+        int brh4 = n >> 4;
 
         System.out.println(brh1);
         System.out.println(brh2);
         System.out.println(brh3);
+        System.out.println(brh4);
     }
 }
 

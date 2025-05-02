@@ -8,10 +8,12 @@ public class BinaryLeftShift {
         int blf1 = n << 1;
         int blf2 = n << 2;
         int blf3 = n << 3;
+        int blf4 = n << 4;
 
         System.out.println(blf1);
         System.out.println(blf2);
         System.out.println(blf3);
+        System.out.println(blf4);
     }
 }
 
@@ -24,4 +26,5 @@ public class BinaryLeftShift {
     13 << 1 → 13 * 2 = 26
     13 << 2 → 13 * 4 = 52
     13 << 3 → 13 * 8 = 104
+    13 << 3 → 13 * 16 = 208 
  */
