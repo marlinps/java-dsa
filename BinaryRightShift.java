@@ -14,3 +14,14 @@ public class BinaryRightShift {
         System.out.println(brh3);
     }
 }
+
+/* TODO: Notes
+    00001101  (Decimal: 13)
+    >> 2 (Shift right by 2)
+    00000012  (Decimal: 52)
+
+    Shifting left by n positions is equivalent to multiplying by 2ⁿ:
+    13 >> 1 → 13 / 2 = 6
+    13 >> 2 → 13 / 4 = 3
+    13 >> 3 → 13 / 8 = 1
+ */
