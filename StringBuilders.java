@@ -15,6 +15,10 @@ public class StringBuilders {
         sb.insert(3, "n"); 
         System.out.println(sb);
 
+        //replace at index 0, 2
+        sb.replace(0, 2, "ro");
+        System.out.println(sb);
+
         //delete at extra 'n'
         sb.delete(3,5);
         System.out.println(sb);
