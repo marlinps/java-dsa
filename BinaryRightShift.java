@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BinaryRightShift {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(Syste m.in);
         int n = sc.nextInt();
 
         int brh1 = n >> 1;
@@ -18,9 +18,9 @@ public class BinaryRightShift {
 }
 
 /* TODO: Notes
-    00001101  (Decimal: 13)
+    00001101 (Decimal: 13)
     >> 2 (Shift right by 2)
-    00000012  (Decimal: 52)
+    00000012 (Decimal: 52)
 
     Shifting left by n positions is equivalent to multiplying by 2ⁿ:
     13 >> 1 → 13 / 2 = 6
