@@ -43,7 +43,7 @@ Input : rows = 2, cols= 3
 1 2 3
 2 3 4
 
-output
+Output
 1 2 3
 2 3 4
  */
