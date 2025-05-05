@@ -22,7 +22,7 @@ public class Bits {
         System.out.println(newNumber);     
         
         //TODO: Clear Bit -> AND With NOT
-        int n2 = 5;
+        int n2 = 5;//0101
         int pos2 = 2;
         int bitMask2 = 1<<pos2;
         int notBitMask = ~(bitMask2);
