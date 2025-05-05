@@ -7,6 +7,7 @@ public class Arrays {
         // marks[0] = 97; //phy
         // marks[1] = 98; //chem
         // marks[2] = 95; //eng
+        
         int marks[] = {97, 98, 95};
 
         // System.out.println(marks[0]);
