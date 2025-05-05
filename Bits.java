@@ -5,9 +5,9 @@ public class Bits {
         //TODO: Get Bit -> AND (&)
         int n = 5;//0101
         int pos = 3;
-        int bitMask = 1<<pos;
+        int bitMask = 1<<pos; // 1 << 3 = 8 (1000)
 
-        if((bitMask & n) == 0){
+        if((bitMask & n) == 0){ //1000 & 0101 = 0000
             System.out.println("bit was zero");
         }else{
             System.out.println("bit was one");
