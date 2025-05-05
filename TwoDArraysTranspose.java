@@ -41,7 +41,7 @@ Input : rows = 2, cols= 3
 1 2 3
 2 3 4
 
-Output
+Output Transpose rows = 3, cols= 2
 1 2
 2 3
 3 4
