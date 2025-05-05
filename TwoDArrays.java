@@ -31,7 +31,7 @@ public class TwoDArrays {
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
                 if(numbers[i][j] == x){
-                    System.out.println("x : " + x + " found at location (" + i + ", " + j + ")");
+                    System.out.println("x : " + x + " found at location [" + i + ", " + j + "]");
                 }
             }
         }
