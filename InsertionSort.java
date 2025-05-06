@@ -21,7 +21,6 @@ public class InsertionSort {
             //placement
             arr[j+1] = current;
         }
-
         printArray(arr);
     }
 }
