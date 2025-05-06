@@ -1,5 +1,6 @@
 public class RecursionFactorials {
     public static int calcFactorial(int n){
+        //TODO: Base case
         if(n == 1 || n == 0){
             return 1;
         }
