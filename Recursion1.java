@@ -11,7 +11,7 @@ public class Recursion1 {
     }
 
     public static void printNumIncrease(int n){
-        if(n == 10){
+        if(n == 6){
             return; //Break
         }
 
@@ -22,9 +22,10 @@ public class Recursion1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); //exmp n =  5
+        int n1 = sc.nextInt(); //exmp n =  1
 
         printNumDiscrease(n);
-        printNumIncrease(n);
+        printNumIncrease(n1);
     } 
 }
 
