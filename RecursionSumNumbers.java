@@ -1,5 +1,6 @@
 public class RecursionSumNumbers {
     public static void printSum(int i, int n, int sum){
+        //TODO: Base Case
         if(i == n){
             sum += i;
             System.out.println(sum);
