@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Recursion1 {
     public static void printNumDiscrease(int n){
+        //TODO: Base case
         if(n == 0){
             return; //Break
         }
@@ -11,6 +12,7 @@ public class Recursion1 {
     }
 
     public static void printNumIncrease(int n){
+        //TODO: Base case
         if(n == 6){
             return; //Break
         }
