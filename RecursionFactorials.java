@@ -5,8 +5,8 @@ public class RecursionFactorials {
             return 1;
         }
 
-        int fact_nm1 = calcFactorial(n-1);
-        int fact_n = n * fact_nm1;
+        int fact_nm1 = calcFactorial(n-1); //calcFactorial(3-1) = calcFactorial(2)
+        int fact_n = n * fact_nm1; // 3! = 3x2!
         return fact_n;
     }
     public static void main(String[] args) {
