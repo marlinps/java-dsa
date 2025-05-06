@@ -6,17 +6,16 @@ public class Recursion1 {
             return; //Break
         }
 
-        System.out.println(n);
+        System.out.println("printNumDiscrease: " +  n);
         printNumDiscrease(n-1); //TODO: Recursion
     }
 
-
     public static void printNumIncrease(int n){
-        if(n == 6){
+        if(n == 10){
             return; //Break
         }
 
-        System.out.println(n);
+        System.out.println("printNumIncrease: " + n);
         printNumIncrease(n+1); //TODO: Recursion
     }
 
