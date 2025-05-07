@@ -11,7 +11,7 @@ public class RecursionFactorials {
     }
     
     public static void main(String[] args) {
-        int n = 3;
+        int n = 5;
         int ans = calcFactorial(n);
         
         System.out.println(ans);
