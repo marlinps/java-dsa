@@ -1,4 +1,5 @@
 public class RecursionFactorials {
+
     public static int calcFactorial(int n){
         //TODO: Base case
         if(n == 1 || n == 0){
@@ -11,7 +12,7 @@ public class RecursionFactorials {
     }
     
     public static void main(String[] args) {
-        int n = 5;
+        int n = 2;
         int ans = calcFactorial(n);
         
         System.out.println(ans);
