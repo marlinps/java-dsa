@@ -9,6 +9,7 @@ public class RecursionFactorials {
         int fact_n = n * fact_nm1; // 3! = 3x2!
         return fact_n;
     }
+    
     public static void main(String[] args) {
         int n = 3;
         int ans = calcFactorial(n);
