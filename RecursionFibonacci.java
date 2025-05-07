@@ -1,6 +1,6 @@
 public class RecursionFibonacci {
     public static void printFib(int a, int b, int n){
-        ///TODO: Basecase
+        ///TODO: Base case
         if(n == 0){
             return;
         }
