@@ -6,8 +6,13 @@ public class Recursion2towerOfHanoi {
             return;
         }
 
+        //TODO: tansfer n-1 disks from src to helper using dest as a 'helper'
         towerOfHanoi(n-1, src, dest, helper);
+
+        //TODO: transfer nth disk from src to dest
         System.out.println("transfer disk "+ n + " from "+ src + " to " + dest);
+
+        //TODO: transfer n-1 disks from helper to dest using src as a 'helper'
         towerOfHanoi(n-1, helper, src, dest);
     }
 
