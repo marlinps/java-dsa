@@ -21,7 +21,7 @@ public class Recursion2FirstLastElementString {
 
         findOccurance(str, idx+1, element);
     }
-
+    
     public static void main(String[] args) {
         String str = "abaacdaefaah";
         findOccurance(str, 0, 'a');
