@@ -15,7 +15,6 @@ public class Recursion2towerOfHanoi {
         //TODO: transfer n-1 disks from helper to dest using src as a 'helper'
         towerOfHanoi(n-1, helper, src, dest);
     }
-
     public static void main(String[] args) {
         int n = 2;
         towerOfHanoi(n, "S", "H", "D");
