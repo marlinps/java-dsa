@@ -3,3 +3,12 @@ public class Recursion2ArrayIsSortedStrictlyIncreasing {
         
     }
 }
+
+/*TODO: Array is sorted strictly increasing return true or false
+ * 1. Base case: if the array has only one element, it is sorted.
+ * 2. Check if the first element is less than the second element.
+ * 3. Recursively check the rest of the array.
+ * 
+ * Example: [1, 2, 3, 4] -> true
+ * Example: [1, 2, 2, 4] -> false
+*/
