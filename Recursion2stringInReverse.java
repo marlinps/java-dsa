@@ -13,7 +13,7 @@ public class Recursion2stringInReverse {
     
     public static void main(String[] args) {
         String str = "abcd";
-        printRev(str, str.length()-1);  
+        printRev(str, str.length()-1); // str.length() - 1 is the last index 
     }
 }
 
