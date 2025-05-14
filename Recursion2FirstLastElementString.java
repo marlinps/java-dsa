@@ -23,12 +23,12 @@ public class Recursion2FirstLastElementString {
     }
     
     public static void main(String[] args) {
-        String str = "abaacdaefaah";
+        String str = "abaacdaefaahb";
         findOccurance(str, 0, 'a');
     }
 }
 
-/* TODO: First and Last Element of String
+/* TODO: First and Last Element of String example" 'a' in "abaacdaefaahb"
  * example: abaacdaefaah
  * 
  */
