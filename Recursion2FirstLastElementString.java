@@ -1,5 +1,5 @@
 public class Recursion2FirstLastElementString {
-    public static int first = -1;
+    public static int first = -1; //initialize invalid index
     public static int last = -1;
 
     public static void findOccurance(String str, int idx, char element){
@@ -28,7 +28,7 @@ public class Recursion2FirstLastElementString {
     }
 }
 
-/* TODO: First and Last Element of String example" 'a' in "abaacdaefaahb"
+/* TODO: First(1st) and Last accurance of an Element of String example" 'a' in "abaacdaefaahb"
  * example: abaacdaefaah
  * 
  */
