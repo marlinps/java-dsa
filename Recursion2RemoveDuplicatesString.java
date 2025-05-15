@@ -33,7 +33,7 @@ public class Recursion2RemoveDuplicatesString {
  * Input: "abbccda"
  
  * Process:
- * Current: 'a' → not seen → add to newString: "a"
+   Current: 'a' → not seen → add to newString: "a"
    Current: 'b' → not seen → "ab"
    Current: 'b' → already seen → skip
    Current: 'c' → not seen → "abc"
