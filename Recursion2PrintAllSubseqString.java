@@ -28,5 +28,7 @@ public class Recursion2PrintAllSubseqString {
     * 4. Print the current subsequence.
     input: "abc"
     * output: "", "a", "b", "ab", "c", "ac", "bc", "abc"
+
+    TODO: Total subsekuens dari string sepanjang n adalah 2^n. Untuk "abc", jumlahnya adalah 2^3 = 8.
  * 
  */
