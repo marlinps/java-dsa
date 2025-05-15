@@ -13,8 +13,7 @@ public class Recursion2RemoveDuplicatesString {
         System.out.println("Current character: " + currChar);
 
         if(map[currChar - 'a']){//map[currChar - 'a'] = true; Marks that 'a' has been seen or used
-            System.out.println("Character " + currChar + " is already present in the new string.");
-            
+          
             // Skip this character, it's a duplicate
             removeDuplicates(str, idx + 1, newString);
         }else{
@@ -32,5 +31,15 @@ public class Recursion2RemoveDuplicatesString {
 
 /* TODO: Remove duplicates from a string
  * Input: "abbccda"
+ 
+ * Process:
+ * Current: 'a' → not seen → add to newString: "a"
+   Current: 'b' → not seen → "ab"
+   Current: 'b' → already seen → skip
+   Current: 'c' → not seen → "abc"
+   Current: 'c' → already seen → skip
+   Current: 'd' → not seen → "abcd"
+   Current: 'a' → already seen → skip
+
  * Output: "abcd"
  */
