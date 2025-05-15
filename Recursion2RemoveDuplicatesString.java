@@ -1,16 +1,21 @@
 public class Recursion2RemoveDuplicatesString {
+    // A global boolean array of size 26 (for each lowercase English letter).
     public static boolean[] map = new boolean[26];
 
     public static void removeDuplicates(String str, int idx, String newString){
-        //base case
+        //Base case
         if(idx == str.length()){
             System.out.println(newString);
             return;
         }
 
         char currChar = str.charAt(idx);
-        if(map[currChar - 'a']){
-            //character is already present in the string
+        System.out.println("Current character: " + currChar);
+
+        if(map[currChar - 'a']){//map[currChar - 'a'] = true; Marks that 'a' has been seen or used
+            System.out.println("Character " + currChar + " is already present in the new string.");
+            
+            // Skip this character, it's a duplicate
             removeDuplicates(str, idx + 1, newString);
         }else{
             newString += currChar;
