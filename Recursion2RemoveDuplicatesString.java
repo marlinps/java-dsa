@@ -10,8 +10,7 @@ public class Recursion2RemoveDuplicatesString {
         }
 
         char currChar = str.charAt(idx);
-        System.out.println("Current character: " + currChar);
-
+        
         if(map[currChar - 'a']){//map[currChar - 'a'] = true; Marks that 'a' has been seen or used
           
             // Skip this character, it's a duplicate
