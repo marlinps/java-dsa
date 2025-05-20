@@ -1,6 +1,26 @@
 public class Recursinon3PlaceTilesinFloor {
+    public static int placeTiles(int n, int m){
+        //Base case
+        if(n == m){
+            return 2;
+        }
+
+        if(n < m){
+            return 1;
+        }
+
+        //vertically
+        int vertPlacement = placeTiles(n-m, m);
+
+        //horizontally
+        int horPalcement = placeTiles(n-1, m);
+
+        return vertPlacement + horPalcement;
+    }
+    
     public static void main(String[] args) {
-        
+        int n = 3, m = 3;
+        System.out.println(placeTiles(n, m));
     }
 }
 
