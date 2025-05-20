@@ -25,5 +25,9 @@ public class Recursinon3PlaceTilesinFloor {
 }
 
 /* TODO: Place tiles in a floor using recursion.
- * 
+ * base case: if n == m, return 2
+ * base case: if n < m, return 1
+ * formula: vertically = placeTiles(n-m, m)
+ * formula: horizontally = placeTiles(n-1, m)
+ * return vertically + horizontally
  */
