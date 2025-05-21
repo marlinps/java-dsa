@@ -41,6 +41,6 @@ public class Recursion3PrintAllSubsetsSetFirstNaturalNumbers {
  * 2
  * 3
  * empty set
- * * The subsets are printed in the order of their size, starting from the largest subset to the smallest.
+ * The subsets are printed in the order of their size, starting from the largest subset to the smallest.
  * 
  */
