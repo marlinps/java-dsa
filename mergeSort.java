@@ -59,6 +59,9 @@ public class MergeSort {
         for(int i : arr){
             System.out.print(i + " ");
         }
+
+        //time complexity: O(n log n)
+        //space complexity: O(n)
     }
 }
 
