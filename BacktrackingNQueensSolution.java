@@ -69,6 +69,8 @@ class BacktrackingNQueensSolution {
     }
 
     public void helper(char[][] board, List<List<String>> allBoards, int col){
+        //Base case
+        //if column is equal to the length of the board, then we have placed all queens
         if(col == board.length){
             saveBoard(board, allBoards);
             return;
