@@ -31,7 +31,7 @@ public class MergeSort {
     }
 
     public static void divide(int arr[], int si, int ei){
-        // Base case
+        // TODO: Base case
         // if start index is greater than or equal to end index, then return
         if(si >= ei){
             return;
@@ -60,8 +60,8 @@ public class MergeSort {
             System.out.print(i + " ");
         }
 
-        //time complexity: O(n log n)
-        //space complexity: O(n)
+        //TODO: time complexity: O(n log n)
+        //TODO: space complexity: O(n)
     }
 }
 
