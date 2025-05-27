@@ -6,6 +6,10 @@ class Pen{
     public void write(){
         System.out.println("Writing something");
     }
+
+    public void printColor(){
+        System.out.println(this.color);
+    }
 }
 
 public class OOPS {
@@ -13,9 +17,13 @@ public class OOPS {
         Pen pen1 = new Pen();
         pen1.color = "Navy";
         pen1.type = "Ballpoint";
-        
-        System.out.println("Pen Color " + pen1.color + ", types " + pen1.type);
 
-        pen1.write();
+        Pen pen2 = new Pen();
+        pen2.color = "Blue";
+        pen2.type = "Gel";
+
+        pen1.printColor();
+        pen2.printColor();
+        
     } 
 }
