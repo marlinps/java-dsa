@@ -10,8 +10,8 @@ class Pen{
 
 public class OOPS {
     public static void main(String[] args) {
-        Pen pen = new Pen();
-        pen.write();
+        Pen pen1 = new Pen();
+        pen1.write();
     }
     
 }
