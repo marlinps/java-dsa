@@ -16,6 +16,13 @@ class Student{
     String name;
     int age;
 
+    Student(String name, int age){
+        this.name = name; //this.name refers to the instance variable, this.name is used to differentiate between the instance variable and the parameter (object)
+        // name refers to the parameter 
+        this.age = age; // this.age refers to the instance variable, this.age is used to differentiate between the instance variable and the parameter (object)
+        // age refers to the parameter
+    }
+
     public void printInfo(){
         System.out.println(this.name);
         System.out.println(this.age);
@@ -35,10 +42,7 @@ public class OOPS {
         pen1.printColor();
         pen2.printColor();
 
-        Student s1 = new Student();
-        s1.name = "Rayyan";
-        s1.age = 6;
-
+        Student s1 = new Student("Marlin", 20);
         s1.printInfo();
         
     } 
