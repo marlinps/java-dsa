@@ -2,7 +2,7 @@ abstract class Animal{
     abstract void walk();
 
     Animal(){
-        System.out.println("You are creating a new animal");
+        System.out.println("You are creating a new animals");
     }
 
     public void eat(){
