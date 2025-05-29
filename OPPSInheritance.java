@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Shape{
     public void area(){
         System.out.println("displays area");
@@ -19,7 +21,5 @@ class Circle extends Shape{
 public class OPPSInheritance {
     public static void main(String[] args) {
        Triangle t1 = new Triangle();
-       t1.color = "Red";
-
     }
 }

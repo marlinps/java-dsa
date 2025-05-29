@@ -1,0 +1,11 @@
+import java.util.*;
+import bank.*; // Importing the Account class from the bank package
+
+public class OPPSAccessModifier {
+    public static void main(String[] args) {
+        bank.Bank account1 = new bank.Bank();
+        account1.name = "customer"; // Accessing public field from another package
+        
+    }
+    
+}
