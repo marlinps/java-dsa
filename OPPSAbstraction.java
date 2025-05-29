@@ -10,6 +10,10 @@ abstract class Animal{
     }
 }
 class Horse extends Animal{
+    Horse(){
+        System.out.println("Created a Horse");
+    }
+
     @Override
     public void walk(){
         System.out.println("Walks on 4 legs");
@@ -17,6 +21,10 @@ class Horse extends Animal{
 }
 
 class Chicken extends Animal{
+    Chicken(){
+        System.out.println("Created a Chicken");
+    }
+
     @Override
     public void walk(){
         System.out.println("Walks on 2 legs");
