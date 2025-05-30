@@ -28,6 +28,5 @@ public class OOPSInterface {
         horse.walk();
         horse.eat();
         horse.graze();
-    }
-   
+    } 
 }
