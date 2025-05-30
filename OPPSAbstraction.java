@@ -9,6 +9,7 @@ abstract class Animal{
         System.out.println("Eats food");
     }
 }
+
 class Horse extends Animal{
     Horse(){
         System.out.println("Created a Horse");
