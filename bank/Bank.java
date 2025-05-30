@@ -4,7 +4,7 @@ package bank;
 // encapsulation is the bundling of data with the methods that operate on that data into a single unit. Public, private and protected fields are not accessible outside the class
 public class Bank {
     public String name;
-    protected String email;
+    public String email;
     private String password;
 
     // Getter for private field
