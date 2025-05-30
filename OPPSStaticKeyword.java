@@ -7,8 +7,6 @@ class Student {
    }
 }
 
-
-
 public class OPPSStaticKeyword {
     public static void main(String[] args) {
        Student.school = "JMV";
@@ -16,6 +14,7 @@ public class OPPSStaticKeyword {
       
        s1.name = "Tony";
       
-       System.out.println(s1.school);       System.out.println(Student.school);
+       System.out.println(s1.school);       
+       System.out.println(Student.school);
     } 
 }
