@@ -13,9 +13,23 @@ public class ArrayLists {
 
         System.out.println(list);
 
+        // get an element from the ArrayList
+        int element = list.get(0); // returns 0
+        System.out.println(element);
+
+        //add element in between
+        list.add(1,1); // adds 1 at index 1
+        System.out.println(list);
+
+        //set an element at a specific index
+        list.set(0, 5); // changes the first element to 5
+        System.out.println(list);
+
+        // remove an element from the ArrayList
+        list.remove(3);
+        System.out.println(list);
 
     }
-    
 }
 
 /* TODO: ArrayLists
