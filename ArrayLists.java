@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayLists {
     public static void main(String[] args) {
@@ -39,8 +40,9 @@ public class ArrayLists {
         } 
         System.out.println();
 
-        //sorting the ArrayList
-        
+        //sorting the ArrayList, default is ascending order
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
 
