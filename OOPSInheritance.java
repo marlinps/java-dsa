@@ -18,7 +18,7 @@ class Circle extends Shape{
     }
 }
 
-public class OPPSInheritance {
+public class OOPSInheritance {
     public static void main(String[] args) {
        Triangle t1 = new Triangle();
     }
