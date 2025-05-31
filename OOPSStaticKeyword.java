@@ -7,7 +7,7 @@ class Student {
    }
 }
 
-public class OPPSStaticKeyword {
+public class OOPSStaticKeyword {
     public static void main(String[] args) {
        Student.school = "JMV";
        Student s1 = new Student();
