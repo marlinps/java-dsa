@@ -52,17 +52,17 @@ public class LinkedLists {
             currNode = currNode.next; 
         }
 
-        System.out.println("null"); // Indicate the end of the list
+        System.out.println("NULL"); // Indicate the end of the list
     }
-
 
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
         list.addFirst("a");
         list.addFirst("is");
+        list.addFirst("this");
+        list.addLast("last");        
         list.printList();
 
-       
     } 
 }
 
