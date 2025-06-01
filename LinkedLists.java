@@ -54,6 +54,38 @@ public class LinkedLists {
         System.out.println("NULL"); // Indicate the end of the list
     }
 
+    // delete - first
+    public void deleteFirst(){
+        if(head == null){
+            System.out.println("The list is empty. Cannot delete.");
+            return;
+        }
+
+        head = head.next; // Move the head to the next node
+    }
+
+    // delete - last
+    public void deleteLast(){
+        if(head == null){
+            System.out.println("The list is empty. Cannot delete.");
+            return;
+        }
+
+        if(head.next == null){
+            head = null; // If there's only one node, set head to null
+            return;
+        }
+
+        Node secondlast = head;
+        Node lastNode = head.next;
+        while(lastNode.next != null){ 
+            lastNode = lastNode.next; // Traverse to the last node
+            secondlast = secondlast.next; 
+        }
+
+        secondlast.next = null; // Set the next of the second last node to null
+    }   
+
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
         list.addFirst("a");
@@ -64,6 +96,12 @@ public class LinkedLists {
         list.printList();
 
         list.addFirst("This");
+        list.printList();
+
+        list.deleteFirst();
+        list.printList();
+
+        list.deleteLast();
         list.printList();
     } 
 }
