@@ -58,10 +58,13 @@ public class LinkedLists {
         LinkedLists list = new LinkedLists();
         list.addFirst("a");
         list.addFirst("is");
-        list.addFirst("this");
-        list.addLast("last");        
+        list.addFirst("this");      
         list.printList();
 
+        list.addFirst("c");
+        list.addLast("list");  
+        list.addLast("b");
+        list.printList();
     } 
 }
 
