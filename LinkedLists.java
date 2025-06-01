@@ -1,5 +1,10 @@
 public class LinkedLists {
     Node head; // Head of the linked list
+    private int size; // Size of the linked list
+
+    LinkedLists(){
+        this.size = 0; // Initialize size to 0
+    }
 
     class Node{
         String data;
@@ -9,6 +14,7 @@ public class LinkedLists {
         Node(String data){
             this.data = data;
             this.next = null; // Initially, the next node is null
+            size++;
         }
     }
 
@@ -61,6 +67,7 @@ public class LinkedLists {
             return;
         }
 
+        size--; // Decrease the size of the list
         head = head.next; // Move the head to the next node
     }
 
@@ -71,6 +78,7 @@ public class LinkedLists {
             return;
         }
 
+        size--; // Decrease the size of the list
         if(head.next == null){
             head = null; // If there's only one node, set head to null
             return;
@@ -84,7 +92,11 @@ public class LinkedLists {
         }
 
         secondlast.next = null; // Set the next of the second last node to null
-    }   
+    } 
+    
+    public int getSize() {
+        return size; // Return the current size of the linked list
+    }
 
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
@@ -103,6 +115,11 @@ public class LinkedLists {
 
         list.deleteLast();
         list.printList();
+
+        System.out.println(list.getSize());
+        list.addFirst("this");
+        list.printList();
+        System.out.println(list.getSize());
     } 
 }
 
