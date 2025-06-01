@@ -62,6 +62,9 @@ public class LinkedLists {
 
         list.addLast("list");  
         list.printList();
+
+        list.addFirst("This");
+        list.printList();
     } 
 }
 
