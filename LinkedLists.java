@@ -39,10 +39,28 @@ public class LinkedLists {
         currNode.next = newNode; // Link the last node to the new node
     }
 
+    // print the linked list
+    public void printList(){
+        if(head == null){
+            System.out.println("The list is empty.");
+            return;
+        }
+
+        Node currNode = head;
+        while(currNode != null){
+            System.out.print(currNode.data + " -> ");
+            currNode = currNode.next; 
+        }
+
+        System.out.println("null"); // Indicate the end of the list
+    }
+
+
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
         list.addFirst("a");
         list.addFirst("is");
+        list.printList();
 
        
     } 
