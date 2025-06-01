@@ -57,13 +57,10 @@ public class LinkedLists {
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
         list.addFirst("a");
-        list.addFirst("is");
-        list.addFirst("this");      
+        list.addFirst("is");   
         list.printList();
 
-        list.addFirst("c");
         list.addLast("list");  
-        list.addLast("b");
         list.printList();
     } 
 }
