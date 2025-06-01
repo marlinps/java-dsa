@@ -22,7 +22,7 @@ public class ArrayLists {
         list.add(1,1); // adds 1 at index 1
         System.out.println(list);
 
-        //set an element at a specific index
+        //set an element at a specific index or replace an element
         list.set(0, 5); // changes the first element to 5
         System.out.println(list);
 
