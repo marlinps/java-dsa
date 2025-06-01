@@ -1,4 +1,3 @@
-
 public class LinkedLists {
     Node head; // Head of the linked list
 
