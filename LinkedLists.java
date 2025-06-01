@@ -25,7 +25,19 @@ public class LinkedLists {
         head = newNode;
     }
 
+    public void addLast(String data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
 
+        Node currNode = head;
+        while(currNode.next != null){
+            currNode = currNode.next; // Traverse to the last node
+        }
+        currNode.next = newNode; // Link the last node to the new node
+    }
 
     public static void main(String[] args) {
         LinkedLists list = new LinkedLists();
