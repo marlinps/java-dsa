@@ -41,6 +41,7 @@ public class LinkedLists {
         while(currNode.next != null){
             currNode = currNode.next; // Traverse to the last node
         }
+        
         currNode.next = newNode; // Link the last node to the new node
     }
 
