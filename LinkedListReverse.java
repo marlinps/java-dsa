@@ -6,6 +6,6 @@ public class LinkedListReverse {
 }
 
 /* TODO: Reverse a LinkedList
-
+  1. Create a LinkedList class with a Node inner class.
  * 
  */
