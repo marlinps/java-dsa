@@ -121,6 +121,7 @@ public class LinkedLists {
         list.addFirst("this");
         list.printList();
         System.out.println(list.getSize());
+        
     } 
 }
 
