@@ -9,3 +9,12 @@ public class OOPSAccessModifier {
         //account1.password = "password"; // Cannot access private field from outside the class 
     }
 }
+
+/* TODO: Access Modifiers in Java
+    * 1. public: Accessible from any other class in any package.
+    * 2. protected: Accessible within the same package and subclasses in other packages.
+    * 3. private: Accessible only within the class it is declared.
+    * 4. default (no modifier): Accessible only within the same package.
+    
+ * 
+ */
