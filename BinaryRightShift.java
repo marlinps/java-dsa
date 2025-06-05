@@ -27,4 +27,5 @@ public class BinaryRightShift {
     13 >> 2 → 13 / 4 = 3
     13 >> 3 → 13 / 8 = 1
     13 >> 4 → 13 / 16 = 0
+    Shifting right by n positions is equivalent to dividing by 2ⁿ, discarding any remainder.
  */
