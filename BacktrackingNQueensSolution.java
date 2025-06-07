@@ -1,6 +1,6 @@
-
 import java.util.ArrayList;
 import java.util.List;
+
 class BacktrackingNQueensSolution {
     public boolean isSafe(int row, int col, char[][] board){
         //horizontal
