@@ -18,6 +18,7 @@ public class LinkedListPackages {
         for(int i=0; i<list.size(); i++){
             System.out.print(list.get(i) + " -> ");
         }
+        
         System.out.println("NULL");
 
         // list.removeFirst();
