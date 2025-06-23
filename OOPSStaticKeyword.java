@@ -20,7 +20,6 @@ public class OOPSStaticKeyword {
 }
 
 /* TODO: 
- * 
    * The static keyword in Java is used to indicate that a member (variable or method) belongs to the class itself rather than to instances of the class.
    *  It allows for shared data and methods that can be accessed without creating an instance of the class.
    *  1. Static variables are shared among all instances of a class, meaning they have the same value for all objects.
@@ -33,5 +32,5 @@ public class OOPSStaticKeyword {
    *  *  The static keyword is commonly used for constants, utility methods, and shared resources in Java applications.
    *  *  Static members can be accessed using the class name, and they do not require an instance of the class to be accessed.
    *  *  Static members are loaded into memory when the class is loaded, and they remain in memory for the lifetime of the application.
- * 
+
  */
