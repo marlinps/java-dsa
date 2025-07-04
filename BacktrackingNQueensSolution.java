@@ -120,5 +120,4 @@ class BacktrackingNQueensSolution {
  Example 2:
  Input: n = 1
  Output: [["Q"]]
-
 */
