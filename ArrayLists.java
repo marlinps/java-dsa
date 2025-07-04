@@ -49,7 +49,5 @@ public class ArrayLists {
 /* TODO: ArrayLists is dynamic array that can grow and shrink in size.
  * It is part of the Java Collections Framework and provides methods to manipulate the elements.
     * 1. Create an ArrayList of integers and add some elements to it.
-    
-
  * 
  */
