@@ -18,6 +18,7 @@ public class LinkedListPackages {
         for(int i=0; i<list.size(); i++){
             System.out.print(list.get(i) + " -> ");
         }
+        
         System.out.println("NULL");
 
         // list.removeFirst();
@@ -32,13 +33,12 @@ public class LinkedListPackages {
 }
 
 /* TODO: 
- * LinkedLists is a data structure that consists of nodes, where each node contains a value and a reference to the next node in the sequence.
- * It allows for efficient insertion and deletion of elements, as well as dynamic resizing.
+  LinkedLists is a data structure that consists of nodes, where each node contains a value and a reference to the next node in the sequence.
+  It allows for efficient insertion and deletion of elements, as well as dynamic resizing.
     Output:
     [is, a]
     [this, is, a, list, last]
     5
     this -> is -> a -> list -> last -> NULL
     [this, is, a, list]
- * 
- */
+*/
