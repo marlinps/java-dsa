@@ -5,7 +5,7 @@ public class StackPackages{
      * @param args
      */
     public static void main(String[] args) {
-        Stack s = new Stack();
+        Stack<Integer> s = new Stack<>();
 
         s.push(1);
         s.push(2);
@@ -18,3 +18,5 @@ public class StackPackages{
         }
     }
 }
+
+//TODO: Java Collection Packages -> Stack
