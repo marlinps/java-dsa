@@ -1,4 +1,5 @@
-public class StackLinkedList{
+// TODO: Implementasi stack dalam linked list
+public class StackLinkedList{ 
     static class Node{
         int data;
         Node next;
