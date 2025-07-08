@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StackPackages{
+public class StackArrayList{
     static class Stack{
         static ArrayList<Integer> list = new ArrayList<>();
 
