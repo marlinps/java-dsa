@@ -1,5 +1,18 @@
+import java.util.ArrayList;
+
 public class StackPackages{
-   
+    class Stack{
+        ArrayList<Integer> list = new ArrayList<>();
+
+        public static boolean isEmpty(){
+            return list.size() == 0;
+        }
+
+        // push
+        public static void push(int data){
+            
+        }
+    }
 
     /**
      * @param args
