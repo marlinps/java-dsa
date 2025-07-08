@@ -22,9 +22,7 @@ public class StackInterviews2 {
         int top = s.pop();
         reverse(s); // Recursive
         pushAtBottom(top, s);
-
     }
-
 
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
