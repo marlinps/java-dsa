@@ -31,7 +31,7 @@ public class StackLinkedList{
 
         public static int pop(){
             if(isEmpty()){
-                return -1;
+                return -1; // negative number
             }
 
             int top = head.data;
