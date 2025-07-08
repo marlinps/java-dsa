@@ -1,8 +1,8 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class StackPackages{
-    class Stack{
-        ArrayList<Integer> list = new ArrayList<>();
+    static class Stack{
+        static ArrayList<Integer> list = new ArrayList<>();
 
         public static boolean isEmpty(){
             return list.size() == 0;
@@ -10,7 +10,27 @@ public class StackPackages{
 
         // push
         public static void push(int data){
-            
+            list.add(data);
+        }
+
+        // pop
+        public static int pop(){
+            if(isEmpty()){
+                return -1;
+            }
+
+            int  top = list.get(list.size()-1);
+            list.remove(list.size()-1);
+            return top;
+        }
+
+        // peek
+        public static int peek(){
+            if(isEmpty()){
+                return -1;
+            }
+
+            return list.get(list.size()-1);
         }
     }
 
