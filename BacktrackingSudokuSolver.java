@@ -93,7 +93,7 @@ public class BacktrackingSudokuSolver {
  * TODO: Sudoku Solver 
  * TODO: remember rule sudoku (1-9) in each row, column and 3x3 sub-box
  
- * Write a program to solve a Sudoku puzzle by filling the empty cells.
+Write a program to solve a Sudoku puzzle by filling the empty cells.
 
 A sudoku solution must satisfy all of the following rules:
 
@@ -111,4 +111,4 @@ Constraints:
     board[i].length == 9
     board[i][j] is a digit or '.'.
     It is guaranteed that the input board has only one solution.
- */
+*/
