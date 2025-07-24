@@ -10,12 +10,12 @@ public class QueueUsingArray {
         }
 
         public static boolean isEmpty(){
-            return rear == -1;
+            return rear == -1; // jika rear -1 berarti queue kosong
         }
 
         // add
         public static void add(int data){
-            if(rear == size-1){
+            if(rear == size-1){// jika rear sudah mencapai ukuran array, berarti queue penuh
                 System.out.println("full queue");
                 return;
             }
@@ -56,6 +56,9 @@ public class QueueUsingArray {
         q.add(1);
         q.add(2);
         q.add(3);
+        q.add(4);
+        q.add(5);
+        q.add(6); // should print "full queue"
         // 1 2 3 .....
 
         while(!q.isEmpty()){
