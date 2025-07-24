@@ -14,7 +14,5 @@ public class OOPSAccessModifier {
     * 1. public: Accessible from any other class in any package.
     * 2. protected: Accessible within the same package and subclasses in other packages.
     * 3. private: Accessible only within the class it is declared.
-    * 4. default (no modifier): Accessible only within the same package.
-    
- * 
+    * 4. default (no modifier): Accessible only within the same package. 
  */
