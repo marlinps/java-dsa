@@ -66,5 +66,12 @@ public class QueueUsingArray {
 }
 
 /* TODO: Queue Using Array
- * 
+ * Implement a queue using an array with methods to add, remove, and peek elements.
+ * Ensure that the queue handles overflow and underflow conditions appropriately.
+ * The queue should support basic operations like enqueue, dequeue, and checking if it is empty.
+ * The implementation should also handle the case where the queue is full or empty.
+ * Consider edge cases such as adding to a full queue or removing from an empty queue.
+ * The queue should be able to store integers and should print the elements in the order they were added.
+ * The main method should demonstrate the functionality of the queue by adding elements, removing them,
+ * and printing the elements in the order they were added.
  */
