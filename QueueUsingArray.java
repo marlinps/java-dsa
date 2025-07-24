@@ -21,14 +21,14 @@ public class QueueUsingArray {
             }
 
             rear++;
-            arr[rear] = data;
+            arr[rear] = data; // tambahkan data ke elemen berikutnya
         }
 
         // dequeue - 0(n)
         public static int remove(){
             if(isEmpty()){
                 System.out.println("empty queue");
-                return -1;
+                return -1; // jika queue kosong, tidak ada yang bisa dihapus
             }
 
             int front = arr[0]; // ambil elemen pertama
@@ -70,6 +70,10 @@ public class QueueUsingArray {
 }
 
 /* TODO: Queue Using Array
+ * front, rear, size
+ * operations: add, remove, peek
+ 
+ * TODO: Queue Implementation
  * Implement a queue using an array with methods to add, remove, and peek elements.
  * Ensure that the queue handles overflow and underflow conditions appropriately.
  * The queue should support basic operations like enqueue, dequeue, and checking if it is empty.
@@ -79,3 +83,4 @@ public class QueueUsingArray {
  * The main method should demonstrate the functionality of the queue by adding elements, removing them,
  * and printing the elements in the order they were added.
  */
+
