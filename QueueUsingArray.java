@@ -31,12 +31,13 @@ public class QueueUsingArray {
                 return -1;
             }
 
-            int front = arr[0];
+            int front = arr[0]; // ambil elemen pertama
+            // geser elemen ke kiri
             for(int i=0; i<rear; i++){
                 arr[i] = arr[i+1];
             }
 
-            rear--;
+            rear--; // kurangi rear karena elemen sudah dihapus
             return front;
         }
 
