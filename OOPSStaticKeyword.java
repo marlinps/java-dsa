@@ -32,5 +32,4 @@ public class OOPSStaticKeyword {
    *  *  The static keyword is commonly used for constants, utility methods, and shared resources in Java applications.
    *  *  Static members can be accessed using the class name, and they do not require an instance of the class to be accessed.
    *  *  Static members are loaded into memory when the class is loaded, and they remain in memory for the lifetime of the application.
-
  */
