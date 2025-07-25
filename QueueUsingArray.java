@@ -50,7 +50,6 @@ public class QueueUsingArray {
             return arr[0];
         }
     }
-
     public static void main(String[] args) {
         Queue q = new Queue(5);
         q.add(1);
