@@ -10,8 +10,7 @@ public class BacktrackingPrintAllPermutations {
             char currChar = str.charAt(i);
             String newStr = str.substring(0, i) + str.substring(i + 1);
             printPermutation(newStr, perm + currChar, idx);
-        }
-
+        }
     }
 
     public static void main(String[] args) {
