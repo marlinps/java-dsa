@@ -12,6 +12,7 @@ public class GreaterOfThoseTwoNumbersFunction {
         
         return temp;
     }
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
