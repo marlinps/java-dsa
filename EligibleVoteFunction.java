@@ -3,7 +3,6 @@ import java.util.*;
 public class EligibleVoteFunction {
     public static String EligibleVoteFunction(int age){
         String status;
-
         if (age > 18){
             status = "Eligible to Vote";
         }else{
