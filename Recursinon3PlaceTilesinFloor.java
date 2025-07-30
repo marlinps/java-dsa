@@ -1,6 +1,6 @@
 public class Recursinon3PlaceTilesinFloor {
     public static int placeTiles(int n, int m){
-        //Base case
+        //base case
         if(n == m){
             return 2;
         }
