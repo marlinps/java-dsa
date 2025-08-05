@@ -88,10 +88,10 @@ public class QueueUsingCircularArray {
 // 1
 // 2
 
-// 3
+// 3 -> front
 // 4
 // 5
 // 6
-// 7
+// 7 -> rear
 
 
