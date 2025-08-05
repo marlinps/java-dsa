@@ -4,16 +4,16 @@ public class QueueUsingArray {
         static int size;
         static int rear = -1; // inisialisasi
 
-        Queue(int size){
-            arr = new int[size];
-            this.size = size;
+        Queue(int n){
+            arr = new int[n];
+            this.size = n;
         }
 
         public static boolean isEmpty(){
             return rear == -1; // jika rear -1 berarti queue kosong
         }
 
-        // add
+        // add / enqueue - O(1)
         public static void add(int data){
             if(rear == size-1){// jika rear sudah mencapai ukuran array, berarti queue penuh
                 System.out.println("full queue");
@@ -59,7 +59,7 @@ public class QueueUsingArray {
         q.add(3);
         q.add(4);
         q.add(5);
-        q.add(6); // should print "full queue"
+        q.add(6); // should printf "full queue"
         // 1 2 3 .....
 
         while(!q.isEmpty()){
