@@ -29,6 +29,5 @@ public class Recursion2FirstLastElementString {
 }
 
 /* TODO: First(1st) and Last accurance of an Element of String example" 'a' in "abaacdaefaah"
- * example: abaacdaefaah
- * 
+ * example: abaacdaefaah
  */
